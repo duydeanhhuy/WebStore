@@ -1,0 +1,89 @@
+.footer-container {
+    display           : flex;
+    text-align        : center;
+    margin-top        : 80px;
+
+
+    .Support {
+        display               : flex;
+        flex-direction        : column;
+
+        .titleSupport {
+            font-size            : 18px;
+            font-weight          : 500;
+            margin-bottom        : 10px;
+        }
+
+        .NoteSupport {
+            display               : flex;
+            flex-direction        : column;
+        }
+    }
+
+    .StoreAbt {
+        display               : flex;
+        flex-direction        : column;
+
+        .titleStore {
+            font-size            : 18px;
+            font-weight          : 500;
+            margin-bottom        : 10px;
+        }
+
+        .NoteStore {
+            display               : flex;
+            flex-direction        : column;
+        }
+    }
+
+    .Cooperate {
+        .tittleCooperate {
+            font-size            : 18px;
+            font-weight          : 500;
+            margin-bottom        : 10px;
+        }
+
+        .NoteCoop {
+            display               : flex;
+            flex-direction        : column;
+
+            .Service {
+                display                      : flex;
+                //align-items        : center;
+                justify-content              : center;
+
+                i {
+                    font-size        : 25px;
+                    margin           : 10px 8px
+                }
+            }
+        }
+    }
+
+    .ContactUs {
+        .titleContact {
+            font-size            : 18px;
+            font-weight          : 500;
+            margin-bottom        : 10px;
+        }
+
+        .logoContact {
+            i {
+                font-size        : 25px;
+                margin           : 10px 8px
+            }
+
+            i.fa-brands.fa-facebook {
+                color        : blue;
+            }
+
+            i.fa-brands.fa-youtube {
+                color        : red;
+            }
+
+            i.fa-brands.fa-google-plus {
+                color        : #be350b;
+            }
+        }
+    }
+}

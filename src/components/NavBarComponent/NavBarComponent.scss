@@ -1,0 +1,32 @@
+.table-container {
+    width                             : 90%;
+    //border                  : 2px solid blue;
+    height                            : 50vh;
+    padding                           : 15px;
+    border-radius                     : 6px;
+    background-color                  : white;
+    box-shadow                        : rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    .Label {
+        font-size                     : 30px;
+        font-weight                   : 500;
+        display                       : flex;
+        // position           : relative;
+        // right              : 65px;
+    }
+
+    .options-product {
+        font-size          : 12px;
+        font-weight        : 400;
+    }
+
+    .priceRange {
+        .title-price-range {
+            font-size                     : 30px;
+            font-weight                   : 500;
+            display                       : flex;
+            // position           : relative;
+            // right              : 65px;
+        }
+    }
+}

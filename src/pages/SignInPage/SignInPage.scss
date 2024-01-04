@@ -1,0 +1,294 @@
+.Sign-in-container {
+    display           : flex;
+    width             : 100vw;
+    height            : 100vh;
+    background        : #e0dcdc;
+
+    .content-left {
+        width                             : 70%;
+        // border                 : 1px solid red;
+        display                           : flex;
+        justify-content                   : center;
+        align-items                       : center;
+
+        .wrapper-form {
+            width                : 65%;
+            height               : 80%;
+            border               : none;
+            padding              : 40px;
+            background           : white;
+            border-radius        : 20px;
+
+            .hello {
+                font-size          : 24px;
+                font-weight        : 500;
+            }
+
+            .question {
+                margin           : 0px;
+                font-size        : 15px;
+            }
+
+            .sdt {
+                input.inputSDT {
+                    width                          : 100%;
+                    //padding              : 10px 0px;
+                    border                         : none;
+                    font-size                      : 24px;
+                    color                          : rgb(36, 36, 36);
+                    outline                        : none;
+                    border-bottom                  : 1px solid #e0dcdc;
+                    margin-top                     : 10px;
+                    padding-bottom                 : 6px;
+                    padding-left                   : 8px;
+
+                    &:hover {
+                        border-bottom        : 1px solid black;
+                    }
+
+                    // &:focus {
+                    //     background        : aquamarine;
+                    // }
+                }
+            }
+
+            .btn-signIn {
+                button.Continue {
+                    margin               : 30px 0px 10px;
+                    outline              : none;
+                    border-radius        : 4px;
+                    background           : rgb(255, 66, 78);
+                    padding              : 8px 0px;
+                    width                : 100%;
+                    color                : rgb(255, 255, 255);
+                    border               : none;
+                    font-size            : 16px;
+                    cursor               : pointer;
+                }
+            }
+
+            .textChangeInput {
+                text-align         : center;
+                color              : blue;
+                cursor             : pointer;
+                font-weight        : 500;
+                opacity            : 0.6;
+                font-size          : 12px;
+
+                &:hover {
+                    color          : blue;
+                    opacity        : 1;
+                }
+            }
+
+            .titleOptions {
+                // margin          : 0px 0px 15px;
+                position        : relative;
+
+                span {
+                    font-size         : 13px;
+                    color             : rgb(120, 120, 120);
+                    display           : inline-block;
+                    background        : rgb(255, 255, 255);
+                    padding           : 0px 20px;
+                    position          : relative;
+                    z-index           : 2;
+                    left              : 150px;
+                    bottom            : 22px;
+                }
+            }
+
+            .someOptions {
+                display                          : flex;
+                align-items                      : center;
+                justify-content                  : center;
+                //border                 : 1px solid red;
+                width                            : 100%;
+                height                           : 35px;
+                gap                              : 20px;
+
+                i.fa-brands.fa-facebook {
+                    font-size        : 30px;
+                    color            : blue;
+                    cursor           : pointer;
+                }
+
+                i.fa-brands.fa-google-plus {
+                    font-size        : 30px;
+                    color            : rgb(191 54 12);
+                    cursor           : pointer;
+                }
+            }
+
+            .Note {
+                margin             : 15px 0;
+                color              : rgb(120, 120, 120);
+                line-height        : 16px;
+                text-align         : start;
+            }
+
+            // email
+            .titleForm {
+                display               : flex;
+                flex-direction        : column;
+
+                span.t1 {
+                    margin             : 5px 0;
+                    font-size          : 24px;
+                    font-weight        : 500;
+                }
+
+                span.t2 {
+                    margin             : 0px;
+                    font-size          : 15px;
+                    line-height        : 20px;
+                }
+            }
+
+            .back {
+                font-size        : 20px;
+                position         : relative;
+                right            : 10px;
+                bottom           : 15px;
+                cursor           : pointer;
+            }
+
+            .formInput {
+                margin          : 10px 0;
+                position        : relative;
+
+                input.email {
+                    width                : 100%;
+                    padding              : 10px 0 4px 0;
+                    border               : none;
+                    font-size            : 14px;
+                    color                : rgb(36, 36, 36);
+                    outline              : none;
+                    border-bottom        : 1px solid #e0dcdc;
+                    cursor               : pointer;
+
+                    &:hover {
+                        border-bottom        : 1px solid black;
+                    }
+                }
+
+                input.password {
+                    width                : 100%;
+                    padding              : 10px 0 4px 0;
+                    border               : none;
+                    font-size            : 14px;
+                    color                : rgb(36, 36, 36);
+                    outline              : none;
+                    border-bottom        : 1px solid #e0dcdc;
+                    cursor               : pointer;
+
+                    &:hover {
+                        border-bottom        : 1px solid black;
+                    }
+                }
+
+                input.password-register {
+                    width                : 100%;
+                    padding              : 10px 0 4px 0;
+                    border               : none;
+                    font-size            : 14px;
+                    color                : rgb(36, 36, 36);
+                    outline              : none;
+                    border-bottom        : 1px solid #e0dcdc;
+                    cursor               : pointer;
+
+                    &:hover {
+                        border-bottom        : 1px solid black;
+                    }
+                }
+
+                input.passwordAgain {
+                    width                : 100%;
+                    padding              : 10px 0 4px 0;
+                    border               : none;
+                    font-size            : 14px;
+                    color                : rgb(36, 36, 36);
+                    outline              : none;
+                    border-bottom        : 1px solid #e0dcdc;
+                    cursor               : pointer;
+                    position             : relative;
+                    bottom               : 15px;
+
+                    &:hover {
+                        border-bottom        : 1px solid black;
+                    }
+                }
+
+                span.showpassAgain {
+                    position         : relative;
+                    left             : 91%;
+                    bottom           : 39px;
+                    font-size        : 14px;
+                    cursor           : pointer;
+                    color            : blue;
+                    opacity          : 0.6;
+
+                    &:hover {
+                        color          : blue;
+                        opacity        : 1;
+                    }
+                }
+
+                span.showpass {
+                    position         : relative;
+                    left             : 91%;
+                    bottom           : 25px;
+                    font-size        : 14px;
+                    cursor           : pointer;
+                    color            : blue;
+                    opacity          : 0.6;
+
+                    &:hover {
+                        color          : blue;
+                        opacity        : 1;
+                    }
+                }
+            }
+
+            .forgot-pass {
+                .forgot {
+                    color            : rgb(13, 92, 182);
+                    font-size        : 12px;
+                    margin           : 5px 0px 0px;
+                    cursor           : pointer;
+                    display          : inline-block;
+                }
+
+                .create-or-not {
+                    color             : rgb(120, 120, 120);
+                    font-size         : 12px;
+                    margin-top        : 4px;
+
+                    span {
+                        color              : rgb(13, 92, 182);
+                        display            : inline-block;
+                        margin-left        : 5px;
+                        cursor             : pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.content-right {
+    width                             : 30%;
+    // border                 : 1px solid blue;
+    background                        : linear-gradient(136deg, rgb(240, 248, 255) -1%, rgb(219, 238, 255) 85%) !important;
+    display                           : flex;
+    justify-content                   : center;
+    align-items                       : center;
+
+    img {
+        height                 : 300px;
+        width                  : 300px;
+        display                : flex;
+        justify-content        : center;
+        justify-items          : center;
+    }
+}

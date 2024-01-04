@@ -1,0 +1,181 @@
+.product-details-container {
+    height            : 80vh;
+    width             : 80vw;
+    display           : flex;
+    margin            : 0 auto;
+    background        : white;
+
+    .content-left {
+        display                          : flex;
+        width                            : 50%;
+        flex-direction                   : column;
+        //border                 : 1px solid red;
+        justify-content                  : center;
+
+
+        .img-up {
+            display                : flex;
+            justify-content        : center;
+
+            img {
+                width         : 400px;
+                height        : 300px;
+            }
+        }
+
+        .img-down {
+            display                : flex;
+            justify-content        : center;
+            margin-top             : 10px;
+
+            img {
+                width                : 70px;
+                height               : 60px;
+                border               : 1px solid red;
+                margin               : 0 10px;
+                border-radius        : 6px;
+            }
+        }
+
+    }
+
+    .content-right {
+        width                : 50%;
+        border-left          : 1px solid rgb(224, 220, 220);
+        margin-top           : 10px;
+        margin-bottom        : 10px;
+
+        .nameP {
+            font-size          : 24px;
+            font-weight        : 500;
+            line-height        : 32px;
+            word-break         : break-all;
+            margin-left        : 15px;
+        }
+
+        .evaluate {
+            display        : flex;
+            margin         : 5px 15px;
+            gap            : 15px;
+
+            .stars {
+                color        : #fb6e2e;
+            }
+
+
+        }
+
+        .price {
+            font-size          : 19px;
+            font-weight        : 500;
+            margin-left        : 35px;
+            margin-top         : 12px;
+        }
+
+        .addressP {
+            display            : flex;
+            color              : #627fbd;
+            margin-left        : 26px;
+            margin-top         : 5px;
+
+            i.fa-solid.fa-minus {
+                font-size          : 10px;
+                line-height        : 24px;
+                margin             : 1px 5px;
+            }
+
+            span.address {
+                text-decoration        : underline;
+                font-size              : 13px;
+                line-height            : 24px;
+                font-weight            : 500;
+                white-space            : nowrap;
+                overflow               : hidden;
+                text-overflow          : ellipsis;
+                color                  : black !important;
+            }
+
+            span.title-address {
+                font-size                    : 13px;
+                line-height                  : 24px;
+                font-weight                  : 500;
+                flex-shrink                  : 0;
+                //color              : black !important;
+            }
+
+            span.changeAddress {
+                font-size          : 13px;
+                line-height        : 24px;
+                font-weight        : 500;
+                flex-shrink        : 0;
+            }
+        }
+
+        .quantityP {
+            margin                : 10px 26px;
+            display               : flex;
+            flex-direction        : column;
+
+            .titleQuantity {
+                font-size        : 11px;
+            }
+
+            .btn-group {
+                input.btnQ {
+                    width             : 70px;
+                    height            : 25px;
+                    margin-top        : 10px;
+                    color             : black;
+                    text-align        : center;
+                }
+
+                button.plus {
+                    width             : 35px;
+                    height            : 25px;
+                    margin-top        : 10px;
+
+
+                }
+            }
+
+        }
+
+        .btn-Purchase {
+            display           : flex;
+            gap               : 10px;
+            margin-top        : 20px;
+
+            button.form-control.choose {
+                width              : 200px;
+                height             : 40px;
+                margin-left        : 26px;
+                background         : #ff4d43;
+                color              : white;
+                font-size          : 14px;
+                font-weight        : 500;
+                opacity            : 0.9;
+
+                &:hover {
+                    background        : #ff4d43;
+                    opacity           : 1;
+                    outline           : none;
+                    border            : none;
+                }
+            }
+
+            button.form-control.otherOption {
+                width                 : 200px;
+                height                : 40px;
+                border                : 1px solid blue;
+                display               : flex;
+                flex-direction        : column;
+                align-items           : center;
+
+                &:hover {
+                    background-color        : rgb(224, 220, 220);
+                    border                  : none
+                }
+            }
+        }
+    }
+}

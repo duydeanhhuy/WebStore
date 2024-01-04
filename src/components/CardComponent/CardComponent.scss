@@ -1,0 +1,79 @@
+.Card-product {
+
+    // display        : flex;
+    //border               : 1px solid red;
+    width                          : 150px;
+    height                         : 270px;
+    border-radius                  : 3px;
+    //box-shadow           : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px,
+            rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px,
+            rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .img-product {
+        width                 : 150px;
+        height                : 180px;
+        text-align            : center;
+        display               : flex;
+        flex-direction        : column;
+
+        img.official-logo {
+            width         : 60px;
+            height        : 13px;
+        }
+
+        img.image {
+            width               : 80%;
+            height              : 100%;
+            margin-right        : 12px;
+            margin-top          : 5px;
+            margin-left         : 15px;
+        }
+    }
+
+    .Name-product {
+        font-weight          : 400;
+        font-size            : 12px;
+        line-height          : 16px;
+        margin-top           : 10px;
+        margin-bottom        : 5px;
+        margin-left          : 5px;
+        font-weight          : 600;
+    }
+
+    .report-product {
+        font-size          : 11px;
+        display            : flex;
+        align-items        : center;
+        margin             : 0 5px;
+
+        i.fa-solid.fa-star {
+            margin-right        : 2px;
+            color               : yellow;
+        }
+    }
+
+    .Price-product {
+        margin-top        : 5px;
+
+        .price {
+            font-size            : 16px;
+            color                : #d0021c;
+            font-weight          : 500;
+            margin-bottom        : 8px;
+            margin-left          : 5px;
+            margin-right         : 5px;
+
+        }
+
+        .discount {
+            color            : #eb5757;
+            font-size        : 12px;
+        }
+    }
+}

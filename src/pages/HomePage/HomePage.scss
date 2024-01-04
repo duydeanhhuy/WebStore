@@ -1,0 +1,97 @@
+.homepage-container {
+    height                : fit-content;
+    display               : flex;
+    flex-direction        : column;
+
+    .typeProduct {
+        display                                                                                                                                                                                                                                                                                   : flex;
+        margin                                                                                                                                                                                                                                                                                    : 10px auto;
+        font-size                                                                                                                                                                                                                                                                                 : 12x;
+        height                                                                                                                                                                                                                                                                                    : 35px;
+        width                                                                                                                                                                                                                                                                                     : 85%;
+        /* margin                                                                                                                                                                                                                                                                                 : 10px auto; */
+        margin                                                                                                                                                                                                                                                                                    : 0 auto;
+        border-bottom                                                                                                                                                                                                                                                                             : 3px solid rgb(197 194 194);
+        //gap             : 24px;
+        text-align                                                                                                                                                                                                                                                                                : center;
+        //padding         : 3px 20px;
+
+        .TrangChu {
+            cursor             : pointer;
+            padding-top        : 4px;
+            width              : 100px;
+            height             : 23px;
+            margin-top         : 3px;
+
+            &:hover {
+                color                   : blue;
+                background-color        : #e4e0e0;
+                font-weight             : 600;
+                border-radius           : 6px;
+            }
+        }
+
+        .AllType {
+            cursor             : pointer;
+            padding-top        : 7px;
+            width              : 100px;
+
+            &:hover {
+                color                   : blue;
+                background-color        : #e4e0e0;
+                font-weight             : 600;
+
+            }
+        }
+
+        .dropdown {
+            width                                  : 100px;
+            padding-top                            : 2px;
+            //border-bottom                : 1px solid red;
+
+            button#dropdown-basic-button {
+                color             : black;
+                background        : white;
+                border            : none;
+
+                &:hover {
+                    color                   : blue;
+                    background-color        : #e4e0e0;
+                    font-weight             : 600;
+                }
+            }
+        }
+    }
+
+    .HomePage {
+        background        : #e0dcdc;
+        height            : 80%;
+        height            : fit-content;
+        width             : 100%;
+
+    }
+
+    .Card {
+        height                       : 700px;
+        width                        : 80%;
+        margin                       : 0 auto;
+        padding                      : 15px;
+        display                      : flex;
+        gap                          : 33px;
+        flex-wrap                    : wrap;
+        //margin-left        : 156px;
+        border                       : 1px solid red;
+
+        .product {
+            margin        : 0 3px;
+        }
+    }
+
+    .Footer {
+        border            : 1px solid red;
+        height            : 250px;
+        width             : 100%;
+        background        : #e0dcdc;
+
+    }
+}
